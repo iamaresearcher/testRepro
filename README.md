@@ -1,3 +1,4 @@
+<a href="https://doi.org/10.5281/zenodo.24104392"><img src="https://zenodo.org/badge/1451126720.svg" alt="DOI"></a>
 
 # R Research Software Template
 
