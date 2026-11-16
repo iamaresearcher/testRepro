@@ -35,6 +35,34 @@ project-root/
 └── renv.lock               # Reproducibility: R environment snapshot
 ```
 
+## Research Software Management Plan
+
+1. The software's purpose is educational and intended for personal training. The primary user is the developer. The project is designed to provide hands-on experience with Git, GitHub, writing a Software Management Plan (SMP) and applying principles of research software reproducibility.
+
+2. The project uses Git for version control and a public GitHub repository for hosting and managing the source code.
+
+3. The software is made publicly available using GitHub and Zenodo.
+
+4. The software is distributed under the MIT License.
+
+5. Not applicable. This is a small-scale training project intended for educational purposes rather than long-term software development.
+
+6. Not applicable. No formal user support or continued development is land after completion of the training.
+
+7. Not applicable. No dedicated funding, infrastructure or personnel are required for this training project.
+
+8. Not applicable. No additional sustainability measures are planned beyond the existing documentation and repository.
+
+9. The software is documented through the README.md file in the public GitHub repository.
+
+10. The project uses Git, GitHub, R, and the renv package to support version control and reproducibility.
+
+11. The software is archived on Zenodo and has been assigned a Digital Object Identifier (DOI): https://doi.org/10.5281/zenodo.24104392
+
+12. Since this is an educational project rather than a fully developed software application, no automated software testing framework has ben implemented.
+
+13. The project is distributed through its public GitHub repository and archived on Zenodo.
+
 ## Installation
 
 [Describe the steps that users (not developers) should follow to install the code in each of the intended platforms (e.g. Window 10, MacOS, etc.).]
