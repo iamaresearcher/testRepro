@@ -1,14 +1,14 @@
 <a href="https://doi.org/10.5281/zenodo.24104392"><img src="https://zenodo.org/badge/1451126720.svg" alt="DOI"></a>
 
-# R Research Software Template
+# R Research Software Management Training - testRepro
 
 <div align="center">
   <img src="img/UT_Logo_0072_Black_EN.png" alt="logo">
 </div>
 
-A template to comply with the [University of Twente Research Software Guidelines](https://zenodo.org/records/15807424) for making your software project FAIR.
+This repository documents my learning process during the Research Software Management Training at the University of Twente.
 
-To align with FAIR4RS (Findable, Accessible, Interoperable, Reusable for Research Software) and Dutch Open Science standards (supported by institutions like NWO and eScience Center), your R project should be treated as a research software package. 
+The project is intended for educational purposes and provides hands-on experience with Git, GitHub, research software documentation, reproducibility, software licensing, citation, and software management planning.
 
 ## Folder Structure
 
@@ -47,7 +47,7 @@ project-root/
 
 5. Not applicable. This is a small-scale training project intended for educational purposes rather than long-term software development.
 
-6. Not applicable. No formal user support or continued development is land after completion of the training.
+6. Not applicable. No formal user support or continued development is planned after completion of the training.
 
 7. Not applicable. No dedicated funding, infrastructure or personnel are required for this training project.
 
@@ -55,11 +55,11 @@ project-root/
 
 9. The software is documented through the README.md file in the public GitHub repository.
 
-10. The project uses Git, GitHub, R, and the renv package to support version control and reproducibility.
+10. The project uses Git, GitHub, R, and the renv package to support version control and reproducibility. The R dependencies are recorded in renv.lock and can be restored using renv::restore().
 
 11. The software is archived on Zenodo and has been assigned a Digital Object Identifier (DOI): https://doi.org/10.5281/zenodo.24104392
 
-12. Since this is an educational project rather than a fully developed software application, no automated software testing framework has ben implemented.
+12. Since this is an educational project rather than a fully developed software application, no automated software testing framework has been implemented.
 
 13. The project is distributed through its public GitHub repository and archived on Zenodo.
 
@@ -72,7 +72,7 @@ To reproduce the R environment:
 1. Install R and Git.
 2. Clone this repository using git clone https://github.com/iamaresearcher/testRepro.git
 3. Open the project directory in R or Positron
-4. Install the renv package if necessary using install.packages("renv").
+4. Install the `renv` package if necessary using install.packages("renv").
 5. Run renv::restore() to restore the package versions recorded in renv.lock.
 
 The project uses Git for version control and renv for dependency management and reproducibility
@@ -80,15 +80,20 @@ The project uses Git for version control and renv for dependency management and 
 [Describe the steps that users (not developers) should follow to install the code in each of the intended platforms (e.g. Window 10, MacOS, etc.).]
 
 **Requirements** 
-- [List the software, OS, and/or technologies on which the code depends, and add hyperlinks to the sources whenever possible.]
-- [State any relevant hardware requirements.]
+
+- R
+- Git
+- The R package renv
+- An internet connection to download dependencies
+
+No special hardware requirements are needed for this training project.
 
 ## License
 This software is distributed under the MIT License. 
 
 ## Copyright
 
-&copy; , The Netherlands. 
+Copyright (c) 2026 iamaresearcher.
 
 ## Citation
 
@@ -96,10 +101,9 @@ This project is archived on Zenodo and can be cited using the following DOI:
 
 https://doi.org/10.5281/zenodo.24104392
 
-Citation metadata is provided in the (CITATION.cff) file.
+Citation metadata is provided in the [CITATION.cff](CITATION.cff) file.
 
 
 ## Acknowlegdements
 
 - [Best practices for sustainable software project, TDCC NES](https://github.com/SS-NES)
-- [Any other acknowlegdements]
