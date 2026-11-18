@@ -65,6 +65,18 @@ project-root/
 
 ## Installation
 
+This repository was created as a training project for the Research Software Management Training at the University of Twente.
+
+To reproduce the R environment:
+
+1. Install R and Git.
+2. Clone this repository using git clone https://github.com/iamaresearcher/testRepro.git
+3. Open the project directory in R or Positron
+4. Install the renv package if necessary using install.packages("renv").
+5. Run renv::restore() to restore the package versions recorded in renv.lock.
+
+The project uses Git for version control and renv for dependency management and reproducibility
+
 [Describe the steps that users (not developers) should follow to install the code in each of the intended platforms (e.g. Window 10, MacOS, etc.).]
 
 **Requirements** 
