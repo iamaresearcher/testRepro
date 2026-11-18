@@ -33,7 +33,8 @@ testRepro/
 ├── LICENSE                 # Software licence
 ├── README.md               # Project documentation and SMP
 ├── codemetadata.json       # Software metadata
-└── renv.lock               # Recorded R package dependencies```
+└── renv.lock               # Recorded R package dependencies
+```
 
 ## Research Software Management Plan
 
