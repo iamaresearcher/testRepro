@@ -84,7 +84,7 @@ The project uses Git for version control and renv for dependency management and 
 - [State any relevant hardware requirements.]
 
 ## License
-This software is distributed under a [CC-BY](LICENSE). 
+This software is distributed under the MIT License. 
 
 ## Copyright
 
@@ -92,9 +92,12 @@ This software is distributed under a [CC-BY](LICENSE).
 
 ## Citation
 
-[Include a [CCF file (Citaion File Format)](https://citation-file-format.github.io/). See example in this repo: `CITATION.cff`. You can easily create the content of a CCF using [this tool](https://citation-file-format.github.io/cff-initializer-javascript/). ]
+This project is archived on Zenodo and can be cited using the following DOI:
 
-[CCF files can be converted to a multitude of formats, including BibTex,  EndNote, codemeta, plain JSON, schema.org, RIS, and Zenodo JSON ]
+https://doi.org/10.5281/zenodo.24104392
+
+Citation metadata is provided in the (CITATION.cff) file.
+
 
 ## Acknowlegdements
 
